@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.main-header {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.main-ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2.4rem;
+  margin-top: 2.4rem;
+  margin-right: 2.4rem;
+}
+.main-li {
+  list-style: none;
+}
+.main-a {
+  color: #000 !important;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+.main-container {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1491555103944-7c647fd857e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 2.4rem;
+}
+.container-flex-nav {
+  display: flex;
+  gap: 100rem;
+  justify-content: center;
+  align-items: center;
+}
+.main-h1 {
+  font-size: 3.2rem;
+}
+.img-about {
+  width: 80%;
+  margin-top: 5.4rem;
+}
+.container-about {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.h1-about-us {
+  font-size: 3.2rem;
+  text-decoration: underline;
+  margin-left: 8.4rem;
+}
+.info {
+  /* background-color: red; */
+  width: 80%;
+  margin-top: 5.4rem;
+}
+.p-info {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-top: 1.8rem;
+}
+.slogan-h1 {
+  text-align: center;
+  position: relative;
+  top: 24.5rem;
+  font-size: 4.4rem;
+}
+.learn-more {
+  text-align: center;
+  position: relative;
+  top: 25.5rem;
+  left: 68rem;
+  padding: 1.2rem 1.6rem;
+  font-size: 2.2rem;
+  border: none;
+  cursor: pointer;
+}
+.learn-more:hover {
+  background-color: #000;
+  color: #fff;
+}
+.container-destinations {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 8.4rem;
+  justify-content: center;
+}
+.destinations-items img {
+  width: 90%;
+}
+.our-destinations {
+  text-align: center;
+  margin-top: 6.4rem;
+  font-size: 3.2rem;
+  position: relative;
+  top: 4.5rem;
+  text-decoration: underline;
+}
+.contact-us-h1 {
+  text-align: center;
+  margin-top: 8.4rem;
+  font-size: 3.2rem;
+  text-decoration: underline;
+}
+
+.sign-up-h1 {
+  font-size: 3.2rem;
+}
+.contact-us {
+  border: 2px solid #000;
+  width: 60%;
+  margin: 4.4rem auto;
+  height: 44rem;
+  padding: 1.2rem 1.6rem;
+  border-radius: 9px;
+}
+.fill-the-form {
+  width: 30%;
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: 2px solid #000;
+  background-color: #fff;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn-submit {
+  padding: 1.2rem 1.6rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+.btn-submit:hover {
+  background-color: #fff;
+  color: #000;
+}
+.container-1-signup {
+  margin-top: 8.4rem;
+}
+label {
+  font-size: 2rem;
+}
+footer {
+  margin-top: 4.4rem;
+  text-align: center;
+  background-color: #000;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-h1 {
+  color: #fff;
+}
